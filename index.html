@@ -1,0 +1,244 @@
+<!DOCTYPE html><html lang="en" data-scrapbook-source="#" data-scrapbook-create="20250313052602116"><head>
+    <script charset="UTF-8" type="text/javascript" src="./05913fd8-ad22-403b-ba48-6d177a4a2b50.js"></script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pika Infinity: Web3 infrastructure for Blockchain Innovators</title>
+    <meta name="description" content="Pika Infinity is a Web3 infrastructure that integrates gaming, a launchpad, and a suite of decentralized services. By leveraging blockchain technology and an interconnected ecosystem, Pika Infinity aims to empower users, creators, and developers to thrive in the decentralized economy.">
+    <!-- <script src="https://cdn.jsdelivr.net/npm/web3@1.7.5/dist/web3.min.js"></script> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@walletconnect/client@2.0.0-beta.6/dist/umd/index.min.js"></script> -->
+    <!-- <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>     -->    
+    <link href="css2.css" rel="stylesheet">
+    
+    <style>
+        * {
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #141414;
+            color: #fff;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+        }
+
+        a {
+            color: #ffbc00;
+        }
+
+        header {
+            background: linear-gradient(135deg, #00d4ff, #006aff);
+            color: white;
+            padding: 20px;
+            text-align: center;
+            width: 100%;
+            border-radius: 0 0 20px 20px;
+            margin-bottom: 40px;
+        }
+
+        header nav a {
+            margin: 0 15px;
+            text-decoration: none;           
+            font-weight: bold;
+        }
+
+        header nav {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        header h1 {
+            font-size: 48px;
+            margin-bottom: 15px;
+            font-weight: 700;
+        }
+
+        header p {
+            font-size: 18px;
+            margin-bottom: 30px;
+            font-weight: 400;
+        }
+
+        .container {
+            max-width: 1200px;
+            width: 100%;
+            text-align: center;
+            padding: 0 20px;
+        }
+
+        .cta-button {
+            background-color: #ffbc00;
+            color: #141414;
+            border: none;
+            padding: 18px 40px;
+            font-size: 20px;
+            font-weight: 600;
+            cursor: pointer;
+            border-radius: 10px;
+            transition: 0.3s ease-in-out;
+            width: auto;
+        }
+
+        .cta-button:hover {
+            background-color: #f1a500;
+            transform: scale(1.05);
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .feature-card {
+            background-color: #333;
+            padding: 30px;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+        }
+
+        .feature-card h3 {
+            font-size: 22px;
+            margin-bottom: 15px;
+        }
+
+        .feature-card p {
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+
+        .feature-card a {
+            background-color: #006aff;
+            padding: 12px 25px;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: 0.3s ease;
+        }
+
+        .feature-card a:hover {
+            background-color: #0049d3;
+        }
+
+        .coming-soon {
+            background-color: #444;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+        }
+
+        .coming-soon h3 {
+            font-size: 22px;
+            margin-bottom: 15px;
+        }
+
+        .coming-soon p {
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+
+        .footer {
+            margin-top: 40px;
+            text-align: center;
+            color: #fff;
+            font-size: 14px;
+        }
+    </style>
+<link rel="shortcut icon" href="favicon.ico"></head>
+
+<body>
+
+    <header>
+        <nav>
+            <a class="interact-button" href="">Home</a>
+            <a class="interact-button" href="#">Launchpad</a>
+            <a class="interact-button" href="#">$PIKA</a>
+            <a class="interact-button" href="#">NFT</a>
+        </nav>
+        <h1>Pika Infinity</h1>
+        <p>Web3 infrastructure for Blockchain Innovators</p>
+        <a href="#"><button id="connectWallet" class="interact-button cta-button">Connect Wallet$</button></a>      
+        <a href="#"><button class="interact-button cta-button">NFT Claim</button></a>
+        <a href="wallet.html"><button class=" cta-button">Connect Manually </button></a>         
+    </header>
+
+    <div class="container">
+        <h2>Products</h2>
+
+        <div class="features">
+            <!-- Launchpad -->
+            <div class="feature-card">
+                <img src="launchpad-DEkbzxrn.webp" alt="Pika Launchpad" width="100%">
+                <h3>Pika Launchpad</h3>
+                <p>Participate in token sales, access early-stage projects, and earn rewards using $PIKA tokens.</p>
+                <a class="interact-button" href="#">Go to Launchpad</a>
+            </div>
+
+            <!-- Pika Land -->
+            <div class="feature-card">
+                <img src="land-Bpklltiy.webp" alt="Pika Land NFT" width="100%">
+                <h3>Pika Land NFTs</h3>
+                <p>Stake your Pika Land NFTs and earn rewards as part of the Pika Universe!</p>
+                <a href="#">Go to Pika Land</a>
+            </div>
+
+            <!-- Pika Fighter (Coming Soon) -->
+            <!-- Coming Soon Section -->
+            <div class="section feature-card">
+                <!-- <h2>What’s Next?</h2>
+                <p>Exciting features are on the horizon!</p> -->
+                <div class="cards">
+                    <div class="card">
+                        <img src="pika-B7F28zbH.png" alt="Pika NFT" width="100%">
+                        <h3>Pika Fighter</h3>
+                        <p>Battle and compete in tournaments with Pika Fighters.</p>
+                        <div class="interact-button" class="coming-soon">Coming Soon</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Community Section -->
+        <section id="community" class="community">
+            <h2>Join the Pika Army!</h2>
+            <p>Follow us on social media and join our global community!</p>
+            <div class="social-links">
+                <a href="https://t.me/Pikainfinitychat1" target="_blank">Telegram</a> |
+                <a href="https://t.me/Pikainfinitychat1" target="_blank">Twitter</a>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p>contact@pikainfinity.com</p>
+            <p>© 2024 Pika Infinity. All Rights Reserved.</p>
+            <div class="footer-links" style="display: none;">
+                <a href="#faq">FAQ</a> | 
+                <a href="#privacy">Privacy Policy</a> | 
+                <a href="#terms">Terms of Service</a>
+            </div>
+            
+        </footer>
+    </div>
+
+    <!-- Google tag (gtag.js) -->
+    
+    
+    <!-- Meta Pixel Code -->
+        
+        <noscript><img height="1" width="1" style="display:none" src="urn:scrapbook:download:error:https://www.facebook.com/tr?id=1595559204572359&amp;ev=PageView&amp;noscript=1"></noscript>
+    <!-- End Meta Pixel Code -->
+
+
+
+</body></html>
